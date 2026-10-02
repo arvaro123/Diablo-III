@@ -72,51 +72,108 @@ body{
     margin-right: 3px;
 }
 .cor1{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
     background-color: #4e422b;
     border: 2px solid red;
 }
+.cor1:hover{
+    transform: translateY( -5px);
+    border: 2px solid red;
+    box-shadow: 0px 3px 15px 5px red;
+}
 .cor2{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
     background-color: #4e422b;
     border: 2px solid blue;
 }
+.cor2:hover{
+    transform: translateY( -5px);
+    border: 2px solid blue;
+    box-shadow: 0px 3px 15px 5px blue;
+}
 .cor3{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
     background-color: #4e422b;
     border: 2px solid green;
 }
+.cor3:hover{
+    transform: translateY( -5px);
+    border: 2px solid green;
+    box-shadow: 0px 3px 15px 5px green;
+}
 .cor4{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
     background-color: #4e422b;
     border: 2px solid purple;
 }
+.cor4:hover{
+    transform: translateY( -5px);
+    border: 2px solid purple;
+    box-shadow: 0px 3px 15px 5px purple;
+}
+/*box-shadow: 0px 3px 15px 5px rgb(90, 23, 92 );*/
 .cor5{
     background-color: #4e422b;
-    border: 2px solid rgb(90, 23, 92);
+    border: 2px solid rgb(90, 23, 92 );
+    flex: 0 0 5em;
+    overflow: hidden;
+    transition: all 0.5s ease;
 }
+.cor5:hover{
+    transform: translateY( -5px);
+    border: 2px solid rgb(90, 23, 92 );
+    box-shadow: 0px 3px 15px 5px rgb(90, 23, 92 );
+}
+
 .cor6{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
     background-color: #4e422b;
     border: 2px solid yellow;
 }
+.cor6:hover{
+    transform: translateY( -5px);
+    border: 2px solid yellow;
+    box-shadow: 0px 3px 15px 5px yellow;
+}
 .cor7{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
     background-color: #4e422b;
     border: 2px solid rgb(56, 54, 54);
 }
+.cor7:hover{
+    transform: translateY( -5px);
+    border: 2px solid rgb(56, 54, 54);
+    box-shadow: 0px 3px 15px 5px rgb(56, 54, 54);
+}
 .vilao{
+    display: flex;
     padding: 20px;
-    width: 700px;
+    width: 53vw;
     margin: 20px 200px;
     color: aliceblue;
     gap: 2em;
-    border: 1px solid red;
-    display: flexbox;
-    justify-content: center;
 }
 .vilao img {
-    width: 100px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    padding: auto;
 }
-.vilao-p{
-    border: 2px solid orange;
+.vilao p{
     font-size: 13px;
     color: aliceblue;
+    margin: 5px 20px auto 20px;
 }
 
 
