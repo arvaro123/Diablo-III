@@ -105,13 +105,40 @@ body{
     margin: 20px 200px;
     color: aliceblue;
     gap: 2em;
-        overflow: hidden;
-        border: 1px solid red;
+    border: 1px solid red;
+    display: flexbox;
+    justify-content: center;
 }
 .vilao img {
-    float: left;
+    width: 100px;
+    height: auto;
 }
-.vilao p{
+.vilao-p{
+    border: 2px solid orange;
     font-size: 13px;
     color: aliceblue;
+}
+
+
+
+/*Parte da pagina sobre*/
+.display-sobre {
+    border: 2px solid rgba(221, 159, 44, 0.767);
+    border-radius: 3px;
+    background-color: rgb(238, 238, 191);
+    color: black;
+    margin: 170px 250px;
+    min-width: 60vw;
+    height: 20vw;
+}
+.display-sobre h1 h2{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.display-sobre p{
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
 }
