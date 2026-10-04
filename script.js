@@ -1,0 +1,1 @@
+ alert(window.innerWidht + " x " + window.innerHeight);
