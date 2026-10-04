@@ -176,6 +176,12 @@ body{
     color: aliceblue;
     margin: 5px 20px auto 20px;
 }
+@media (max-widht:1000px;){
+    .container-principal{
+        border: 2px solid red;
+    }
+}
+
 
 
 
