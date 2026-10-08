@@ -1,0 +1,217 @@
+body{
+    background-image: url(imgs/logo3.jpeg);
+    background-size: 100vw 1000px;
+    background-repeat: no-repeat;
+    background-color: black;
+    text-align: center;
+    font-family: 'DiabloImortal', sans-serif;
+    color: azure;
+
+}
+@font-face {
+    font-family: "DiabloImortal";
+    src: url("diablo/diablo.ttf") format('truetype');
+}
+#container-barra{
+    min-width: 60vw;
+    height: 60px;
+    border-radius: 50px;
+    margin: 50px 200px auto 200px;
+    background-color: #36383d;
+    box-shadow: 3px 6px 15px #222121;
+}
+#container-barra, nav{
+    border-radius: 50px;
+    opacity: 70%;
+}
+#container-barra, a{
+    background-color: #d3cbb2;
+    /*rgb(243, 228, 198)*/
+    color: rgb(133, 69, 43 );
+    display: inline-block;
+    transition: all 0.5s ease;
+    font-size: 25px;
+    margin: 15px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0px 1px 10px #49412e;
+}
+#container-barra, a:hover{
+    color: orange;
+    transform: translateY( 3px);
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0px 1px 10px rgba(252, 195, 91, 0.733);
+}
+.container-principal{
+    display: flex;
+    border: 2px solid yellow;
+    font-size: 20px;
+    margin: 57vw 170px;
+}
+@media screen and (min-widht:768px) and (max-widht:1544px){
+    .container-principal {
+        display:flex;
+         border: 2px solid white;
+          font-size: 20px;
+           margin: 0px;
+    }
+}
+.container-principal, h1{
+    font-size: 18px;
+    padding: 10px 30px 1px 30px;
+}
+.container-principal, p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+.botao, .cor1, .cor2, .cor3, .cor4, .cor5, .cor6, .cor7{
+    display: inline;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'DiabloImortal';
+    color: rgb(252, 251, 214);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.cor1{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
+    background-color: #4e422b;
+    border: 2px solid red;
+}
+.cor1:hover{
+    transform: translateY( -5px);
+    border: 2px solid red;
+    box-shadow: 0px 3px 15px 5px red;
+}
+.cor2{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
+    background-color: #4e422b;
+    border: 2px solid blue;
+}
+.cor2:hover{
+    transform: translateY( -5px);
+    border: 2px solid blue;
+    box-shadow: 0px 3px 15px 5px blue;
+}
+.cor3{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
+    background-color: #4e422b;
+    border: 2px solid green;
+}
+.cor3:hover{
+    transform: translateY( -5px);
+    border: 2px solid green;
+    box-shadow: 0px 3px 15px 5px green;
+}
+.cor4{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
+    background-color: #4e422b;
+    border: 2px solid purple;
+}
+.cor4:hover{
+    transform: translateY( -5px);
+    border: 2px solid purple;
+    box-shadow: 0px 3px 15px 5px purple;
+}
+/*box-shadow: 0px 3px 15px 5px rgb(90, 23, 92 );*/
+.cor5{
+    background-color: #4e422b;
+    border: 2px solid rgb(90, 23, 92 );
+    flex: 0 0 5em;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.cor5:hover{
+    transform: translateY( -5px);
+    border: 2px solid rgb(90, 23, 92 );
+    box-shadow: 0px 3px 15px 5px rgb(90, 23, 92 );
+}
+
+.cor6{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
+    background-color: #4e422b;
+    border: 2px solid yellow;
+}
+.cor6:hover{
+    transform: translateY( -5px);
+    border: 2px solid yellow;
+    box-shadow: 0px 3px 15px 5px yellow;
+}
+.cor7{
+    transition: all 0.5s ease;
+    flex: 0 0 5em;
+    overflow: hidden;
+    background-color: #4e422b;
+    border: 2px solid rgb(56, 54, 54);
+}
+.cor7:hover{
+    transform: translateY( -5px);
+    border: 2px solid rgb(56, 54, 54);
+    box-shadow: 0px 3px 15px 5px rgb(56, 54, 54);
+}
+.vilao{
+    display: flex;
+    padding: 20px;
+    width: 53vw;
+    margin: 20px 200px;
+    color: aliceblue;
+    gap: 2em;
+}
+.vilao img {
+    width: 300px;
+    height: 300px;
+    padding: auto;
+}
+.vilao p{
+    font-size: 13px;
+    color: aliceblue;
+    margin: 5px 20px auto 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Parte da pagina sobre*/
+.display-sobre {
+    border: 2px solid rgba(221, 159, 44, 0.767);
+    border-radius: 3px;
+    background-color: rgb(238, 238, 191);
+    color: black;
+    margin: 170px 250px;
+    min-width: 60vw;
+    height: 20vw;
+}
+.display-sobre h1 h2{
+    font-size: 15spx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.display-sobre p{
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+}
